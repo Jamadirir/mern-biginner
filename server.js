@@ -8,7 +8,7 @@ app.use(cors())
 app.use(express.json())
 /// DATABASE CONNECTION
 mongoose.connect(
-  "mongodb://localhost:27017/tutorialmern?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+  "mongodb+srv://jama:Jamam@mern.x7tsv.mongodb.net/tutorialmern?retryWrites=true&w=majority",
   { useNewUrlParser: true }
 );
 
