@@ -51,6 +51,6 @@ app.delete('/delete/:id',async(req,res)=>{
     res.send('deleted')
   ) 
 })
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT, () => {
   console.log("You are connected!");
 });
