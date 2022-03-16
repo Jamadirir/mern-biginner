@@ -6,7 +6,7 @@ const router=express.Router()
 router.get('/read',Read)
 router.post('/create',Register)
 router.put('/update',Update)
-router.delete('/delete',Remove)
+router.delete('/delete/:id',Remove)
 
 
 module.exports=router
