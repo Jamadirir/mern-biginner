@@ -1,8 +1,6 @@
 const express=require('express')
 const FriendModel = require('../models/ModelFriends');
 
-
-
 exports.Register = async (req, res) => {
     const name=req.body.name
     const age=req.body.age

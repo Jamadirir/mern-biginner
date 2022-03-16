@@ -9,7 +9,7 @@ app.use(cors())
 
 app.use(express.json())
 
-app.use('/friends',router)
+app.use('/',router)
 /// DATABASE CONNECTION
 
 
